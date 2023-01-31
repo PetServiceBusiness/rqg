@@ -13,7 +13,7 @@ h1 {
     transition-duration: 1s;
     color: blueviolet;
 }
-h5, button, a {
+h3, button, a {
     transition-duration: 1s;
     color: blueviolet;
 }
