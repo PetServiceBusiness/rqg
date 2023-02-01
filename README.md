@@ -1,4 +1,4 @@
-# Random Quote Generator
+# Random Quote Generator v1.2
 
 I made this quote generator for my A/V class and for freecodecamp.org
 
