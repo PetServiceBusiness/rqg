@@ -33,8 +33,10 @@ function newQuote() {
     $(function () {
         $('#text').css('color', x);
         $('#author').css('color', x);
-        $('#new-quote').css('color', x);
-        $('#tweet-quote').css('color', x);
+        $('#new-quote').css('background-color', x);
+        $('.tweet-quote').css('background-color', x);
+        $('#tweet-quote').attr('href', 'https://twitter.com/intent/tweet?text=' + quote.QUOTE + ' ' + quote.AUTHOR)
+        console.log('https://twitter.com/intent/tweet?text="' + quote.QUOTE + '" ' + quote.AUTHOR)
     });
 };
 
