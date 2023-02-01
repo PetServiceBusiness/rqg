@@ -1,6 +1,6 @@
 let colors = ['red', 'crimson', 'tomato', 'mediumseagreen', 'goldenrod', 'salmon', 'slateblue', 'aqua', 'aquamarine', 'chartreuse', 'coral', 'orange', 'green', 'blue', 'dodgerblue', 'blueviolet', 'purple', 'black', 'gray', 'indigo', 'violet', 'pink']
 
-// QUOTE AMOUNT: 24
+// QUOTE AMOUNT: 40
 
 let quotes = [
     {QUOTE: 'The greatest glory in living lies not in never falling, but in rising every time we fall.', AUTHOR: '-Nelson Mandela'},
@@ -26,7 +26,22 @@ let quotes = [
     {QUOTE: "The only impossible journey is the one you never begin.", AUTHOR: "-Tony Robbins"},
     {QUOTE: "In this life we cannot do great things. We can only do small things with great love.", AUTHOR: "-Mother Teresa"},
     {QUOTE: "Only a life lived for others is a life worthwhile.", AUTHOR: "-Albert Einstein"},
-    {QUOTE: "The purpose of our lives is to be happy.", AUTHOR: "-Dalai Lama"}
+    {QUOTE: "The purpose of our lives is to be happy.", AUTHOR: "-Dalai Lama"},
+    {QUOTE: "You only live once, but if you do it right, once is enough.", AUTHOR: "-Mae West"},
+    {QUOTE: "Live in the sunshine, swim the sea, drink the wild air.", AUTHOR: "-Ralph Waldo Emerson"},
+    {QUOTE: "Go confidently in the direction of your dreams! Live the life you've imagined.", AUTHOR: "-Henry David Thoreau"},
+    {QUOTE: "The greatest glory in living lies not in never falling, but in rising every time we fall.", AUTHOR: "-Nelson Mandela"},
+    {QUOTE: "Life is really simple, but we insist on making it complicated.", AUTHOR: "-Confucius"},
+    {QUOTE: "May you live all the days of your life.", AUTHOR: "-Jonathan Swift"},
+    {QUOTE: "Life itself is the most wonderful fairy tale.", AUTHOR: "-Hans Christian Andersen"},
+    {QUOTE: "Do not let making a living prevent you from making a life.", AUTHOR: "-John Wooden"},
+    {QUOTE: "Life is ours to be spent, not to be saved.", AUTHOR: "-D. H. Lawrence"},
+    {QUOTE: "Keep smiling, because life is a beautiful thing and there's so much to smile about.", AUTHOR: "-Marilyn Monroe"},
+    {QUOTE: "Life is a long lesson in humility.", AUTHOR: "-James M. Barrie"},
+    {QUOTE: "In three words I can sum up everything I've learned about life: it goes on.", AUTHOR: "-Robert Frost"},
+    {QUOTE: "Love the life you live. Live the life you love.", AUTHOR: "-Bob Marley"},
+    {QUOTE: "Life is made of ever so many partings welded together.", AUTHOR: "-Charles Dickens"},
+    {QUOTE: "Life is trying things to see if they work.", AUTHOR: "-Ray Bradbury"}
 ];
 
 function takeRNG(highestNumber, lowestNumber) {
