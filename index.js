@@ -11,7 +11,20 @@ let quotes = [
     {QUOTE: "Spread love everywhere you go. Let no one ever come to you without leaving happier.", AUTHOR: "-Mother Teresa"},
     {QUOTE: "When you reach the end of your rope, tie a knot in it and hang on.", AUTHOR: "-Franklin D. Roosevelt"},
     {QUOTE: "Always remember that you are absolutely unique. Just like everyone else.", AUTHOR: "-Margaret Mead"},
-    {QUOTE: "Don't judge each day by the harvest you reap but by the seeds that you plant.", AUTHOR: "-Robert Louis Stevenson"}
+    {QUOTE: "Don't judge each day by the harvest you reap but by the seeds that you plant.", AUTHOR: "-Robert Louis Stevenson"},
+    {QUOTE: 'You will face many defeats in life, but never let yourself be defeated.', AUTHOR: "-Maya Angelou"},
+    {QUOTE: "In the end, it's not the years in your life that count. It's the life in your years.", AUTHOR: "-Abraham Lincoln"},
+    {QUOTE: "Never let the fear of striking out keep you from playing the game.", AUTHOR: "-Babe Ruth"},
+    {QUOTE: "Life is either a daring adventure or nothing at all.", AUTHOR: "-Helen Keller"},
+    {QUOTE: "Many of life's failures are people who did not realize how close they were to success when they gave up.", AUTHOR: "-Thomas A. Edison"},
+    {QUOTE: "You have brains in your head. You have feet in your shoes. You can steer yourself any direction you choose.", AUTHOR: "-Dr. Seuss"},
+    {QUOTE: "If life were predictable it would cease to be life and be without flavor.", AUTHOR: "-Eleanor Roosevelt"},
+    {QUOTE: "Life is a succession of lessons which must be lived to be understood.", AUTHOR: "-Ralph Waldo Emerson"},
+    {QUOTE: "Life is never fair, and perhaps it is a good thing for most of us that it is not.", AUTHOR: "-Oscar Wilde"},
+    {QUOTE: "The only impossible journey is the one you never begin.", AUTHOR: "-Tony Robbins"},
+    {QUOTE: "In this life we cannot do great things. We can only do small things with great love.", AUTHOR: "-Mother Teresa"},
+    {QUOTE: "Only a life lived for others is a life worthwhile.", AUTHOR: "-Albert Einstein"},
+    {QUOTE: "The purpose of our lives is to be happy.", AUTHOR: "-Dalai Lama"}
 ];
 
 function takeRNG(highestNumber, lowestNumber) {
