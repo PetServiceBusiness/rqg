@@ -129,7 +129,6 @@ function newQuote() {
         $('#copy-quote').css('background-color', x);
         $('#quote-left').css('color', x);
         $('#tweet-quote').attr('href', 'https://twitter.com/intent/tweet?text=' + quote.QUOTE + ' ' + quote.AUTHOR)
-        console.log('https://twitter.com/intent/tweet?text="' + quote.QUOTE + '" ' + quote.AUTHOR)
     });
 };
 
