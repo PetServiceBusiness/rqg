@@ -1,6 +1,6 @@
 let colors = ['red', 'crimson', 'tomato', 'mediumseagreen', 'goldenrod', 'salmon', 'slateblue', 'aqua', 'aquamarine', 'chartreuse', 'coral', 'orange', 'green', 'blue', 'dodgerblue', 'blueviolet', 'purple', 'black', 'gray', 'indigo', 'violet', 'pink']
 
-// QUOTE AMOUNT: 97
+// QUOTE AMOUNT: 100
 
 let quotes = [
     {QUOTE: 'The greatest glory in living lies not in never falling, but in rising every time we fall.', AUTHOR: '-Nelson Mandela'},
