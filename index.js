@@ -99,7 +99,10 @@ let quotes = [
     {QUOTE: "Dreaming, after all, is a form of planning.", AUTHOR: "-Gloria Steinem"},
     {QUOTE: "Whatever the mind of man can conceive and believe, it can achieve.", AUTHOR: "-Napoleon Hill"},
     {QUOTE: "First, have a definite, clear practical ideal; a goal, an objective. Second, have the necessary means to achieve your ends; wisdom, money, materials, and methods. Third, adjust all your means to that end.", AUTHOR: "-Aristotle"},
-    {QUOTE: "Twenty years from now you will be more disappointed by the things that you didn't do than by the ones you did do. So, throw off the bowlines, sail away from safe harbor, catch the trade winds in your sails. Explore, Dream, Discover.", AUTHOR: "-Mark Twain"}
+    {QUOTE: "Twenty years from now you will be more disappointed by the things that you didn't do than by the ones you did do. So, throw off the bowlines, sail away from safe harbor, catch the trade winds in your sails. Explore, Dream, Discover.", AUTHOR: "-Mark Twain"},
+    {QUOTE: "Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment.", AUTHOR: "-Buddha"},
+    {QUOTE: "We cannot solve problems with the kind of thinking we employed when we came up with them.", AUTHOR: "-Albert Einstein"},
+    {QUOTE: "Stay away from those people who try to disparage your ambitions. Small minds will always do that, but great minds will give you a feeling that you can become great too.", AUTHOR: "-Mark Twain"}
 ];
 
 function takeRNG(highestNumber, lowestNumber) {
@@ -131,6 +134,6 @@ function newQuote() {
 };
 
 function copyText() {
-    let text = '"' + document.getElementById('text').innerHTML + '" ' + document.getElementById('author').innerHTML;
+    let text = '"' + document.getElementById('text').innerHTML + '" ' + document.getElementById('author').innerHTML + '... https://petservicebusiness.github.io/rqg/';
     navigator.clipboard.writeText(text);
 }
