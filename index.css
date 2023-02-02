@@ -18,7 +18,12 @@ h3, button, a, .fa {
     color: black;
 }
 .wrapper {
-    margin-top: 25vh;
+    top: 50%;
+    left: 25%;
+    right: 25%;
+    position: absolute;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 body {
     background-color: black;
